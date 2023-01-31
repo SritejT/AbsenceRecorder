@@ -14,6 +14,10 @@
 		12FABA07297BBA2400BDDB5A /* AbsenceRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA06297BBA2400BDDB5A /* AbsenceRecorderTests.swift */; };
 		12FABA11297BBA2400BDDB5A /* AbsenceRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA10297BBA2400BDDB5A /* AbsenceRecorderUITests.swift */; };
 		12FABA13297BBA2400BDDB5A /* AbsenceRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA12297BBA2400BDDB5A /* AbsenceRecorderUITestsLaunchTests.swift */; };
+		12FABA22297BBC3800BDDB5A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA21297BBC3800BDDB5A /* Student.swift */; };
+		12FABA24297BBCA100BDDB5A /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA23297BBCA100BDDB5A /* Division.swift */; };
+		12FABA272989C4F800BDDB5A /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA262989C4F800BDDB5A /* Date.swift */; };
+		12FABA292989CA3900BDDB5A /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FABA282989CA3900BDDB5A /* DivisionItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		12FABA0C297BBA2400BDDB5A /* AbsenceRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsenceRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FABA10297BBA2400BDDB5A /* AbsenceRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITests.swift; sourceTree = "<group>"; };
 		12FABA12297BBA2400BDDB5A /* AbsenceRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12FABA21297BBC3800BDDB5A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		12FABA23297BBCA100BDDB5A /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		12FABA262989C4F800BDDB5A /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		12FABA282989CA3900BDDB5A /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		12FAB9F4297BBA2200BDDB5A /* AbsenceRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				12FABA252989C4E500BDDB5A /* Extensions */,
 				12FABA20297BBBFC00BDDB5A /* View */,
 				12FABA1F297BBBF300BDDB5A /* Model */,
 				12FAB9F5297BBA2200BDDB5A /* AbsenceRecorderApp.swift */,
@@ -131,6 +140,8 @@
 		12FABA1F297BBBF300BDDB5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				12FABA21297BBC3800BDDB5A /* Student.swift */,
+				12FABA23297BBCA100BDDB5A /* Division.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,8 +150,17 @@
 			isa = PBXGroup;
 			children = (
 				12FAB9F7297BBA2200BDDB5A /* ContentView.swift */,
+				12FABA282989CA3900BDDB5A /* DivisionItem.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		12FABA252989C4E500BDDB5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12FABA262989C4F800BDDB5A /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FAB9F8297BBA2200BDDB5A /* ContentView.swift in Sources */,
+				12FABA272989C4F800BDDB5A /* Date.swift in Sources */,
+				12FABA22297BBC3800BDDB5A /* Student.swift in Sources */,
+				12FABA24297BBCA100BDDB5A /* Division.swift in Sources */,
 				12FAB9F6297BBA2200BDDB5A /* AbsenceRecorderApp.swift in Sources */,
+				12FABA292989CA3900BDDB5A /* DivisionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
