@@ -11,6 +11,7 @@
 		1212451F298CF25500663DDC /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1212451E298CF25500663DDC /* RootTabView.swift */; };
 		12124521298CF38200663DDC /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12124520298CF38200663DDC /* StatisticsView.swift */; };
 		12124523298CF52400663DDC /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12124522298CF52400663DDC /* StateController.swift */; };
+		12395ED229A8A1B000777C61 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12395ED129A8A1B000777C61 /* FileManager.swift */; };
 		1250F261298D94390088D22E /* AbsenceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250F260298D94390088D22E /* AbsenceItem.swift */; };
 		1274ED6C298DA70E00C7F120 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1274ED6B298DA70E00C7F120 /* StudentAbsence.swift */; };
 		1274ED6E298DA91C00C7F120 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1274ED6D298DA91C00C7F120 /* Absence.swift */; };
@@ -50,6 +51,7 @@
 		1212451E298CF25500663DDC /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		12124520298CF38200663DDC /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		12124522298CF52400663DDC /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		12395ED129A8A1B000777C61 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		1250F260298D94390088D22E /* AbsenceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceItem.swift; sourceTree = "<group>"; };
 		1274ED6B298DA70E00C7F120 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		1274ED6D298DA91C00C7F120 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				12FABA262989C4F800BDDB5A /* Date.swift */,
+				12395ED129A8A1B000777C61 /* FileManager.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				12FAB9F8297BBA2200BDDB5A /* DivisionsView.swift in Sources */,
 				12FABA272989C4F800BDDB5A /* Date.swift in Sources */,
 				1212451F298CF25500663DDC /* RootTabView.swift in Sources */,
+				12395ED229A8A1B000777C61 /* FileManager.swift in Sources */,
 				1274ED6C298DA70E00C7F120 /* StudentAbsence.swift in Sources */,
 				12FABA22297BBC3800BDDB5A /* Student.swift in Sources */,
 				1250F261298D94390088D22E /* AbsenceItem.swift in Sources */,
